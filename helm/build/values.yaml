@@ -1,0 +1,15 @@
+app:
+  name: gracehoppeh-poi-gateway-app
+  namespace: gracehoppeh
+  cluster: .apps.summit23blues.6mbu.p1.openshiftapps.com
+
+git:
+  branch: main
+  repo: https://github.com/Summit23Janus2/gracehoppeh-gateway
+  org: Summit23Janus2
+  name: gracehoppeh-gateway
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: gracehoppeh/poi-gateway-app
+  tag: latest
